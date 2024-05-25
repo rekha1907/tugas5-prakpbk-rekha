@@ -7,10 +7,10 @@
     ref="carousel"
     infinite
   >
-    <q-carousel-slide :name="1" img-src="/src/assets/slide1.webp" class="carousel-image"/>
-    <q-carousel-slide :name="2" img-src="/src/assets/slide2.jpg" class="carousel-image"/>
-    <q-carousel-slide :name="3" img-src="/src/assets/slide3.jpg" class="carousel-image"/>
-    <q-carousel-slide :name="4" img-src="/src/assets/slide4.jpeg" class="carousel-image"/>
+    <q-carousel-slide :name="1" img-src="../assets/slide1.webp" class="carousel-image"/>
+    <q-carousel-slide :name="2" img-src="../assets/slide2.jpg" class="carousel-image"/>
+    <q-carousel-slide :name="3" img-src="../assets/slide3.jpg" class="carousel-image"/>
+    <q-carousel-slide :name="4" img-src="../assets/slide4.jpeg" class="carousel-image"/>
   </q-carousel>
 </template>
 

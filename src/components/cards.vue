@@ -18,15 +18,15 @@ export default {
   data() {
     return {
       products: [
-        { title: 'Bedak Padat', description: 'Wardah Colorfit Velvet Powder Foundation merupakan kombinasi foundation dan bedak yang terasa halus. serta Ideal untuk kulit kering', image: '../assets/bedak.jpg' },
-        { title: 'Cleansing Oil', description: 'The Beauty of Joseon Ginseng Cleansing Oil adalah minyak pembersih lembut dan ringan sekaligus menambah kelembapan pada kulit.', image: '../assets/boj.webp' },
-        { title: 'Cushion', description: 'Cover All Perfect Cushion Dapat membantu mengontrol minyak untuk mencegah kusam dan warna tidak merata serta mencerahkan kulit wajah.', image: '../assets/cushion.png' },
-        { title: 'Facial Mask', description: 'Masker Wajah Anti Penuaan yang Meremajakan Untuk Kulit Sempurna-Mengurangi Garis-garis Halus & Melembabkan Kulit Anda.', image: '../assets/facemask.jpg' },
-        { title: 'Micellar', description: 'SKINTIFIC Mugwort Purifying Micellar Water merupakan micellar water dengan kandungan Mugwort, Centella, dan Ceramide, membersihkan wajah dari kotoran.', image: '../assets/micellar.jpeg' },
-        { title: 'Neutrogena', description: 'Neutrogena Hydro Boost Water Gel Pelembab Wajah, menyegarkan untuk membuat kulit bersinar. Ideal untuk kulit kering, sensitif, & berjerawat.', image: '../assets/moiz.jpg' },
-        { title: 'Serum', description: 'Kadar antioksidan di malam hari memperbaiki kerutan halus, mengencangkan kulit & meningkatkan kecerahan, Efektif untuk semua jenis & warna kulit.', image: '../assets/serum.jpeg' },
-        { title: 'Sun Screen', description: ' tabir surya dalam bentuk gel (water base) yang diformulasi khusus dengan tekstur yang ringan, nyaman, dan tanpa whitecast.', image: '../assets/sunscreen.jpeg' },
-        { title: 'Toner', description: 'Toner wajah membantu membersihkan wajah dari sisa kotoran, menyeimbangkan PH wajah, mencerahkan kulit wajah, merawat kulit berjerawat.', image: '../assets/toner.jpg' },
+        { title: 'Bedak Padat', description: 'Wardah Colorfit Velvet Powder Foundation merupakan kombinasi foundation dan bedak yang terasa halus. serta Ideal untuk kulit kering', image: '/src/assest/bedak.jpg' },
+        { title: 'Cleansing Oil', description: 'The Beauty of Joseon Ginseng Cleansing Oil adalah minyak pembersih lembut dan ringan sekaligus menambah kelembapan pada kulit.', image: '/src/assets/boj.webp' },
+        { title: 'Cushion', description: 'Cover All Perfect Cushion Dapat membantu mengontrol minyak untuk mencegah kusam dan warna tidak merata serta mencerahkan kulit wajah.', image: '/src/assets/cushion.png' },
+        { title: 'Facial Mask', description: 'Masker Wajah Anti Penuaan yang Meremajakan Untuk Kulit Sempurna-Mengurangi Garis-garis Halus & Melembabkan Kulit Anda.', image: '/src/assets/facemask.jpg' },
+        { title: 'Micellar', description: 'SKINTIFIC Mugwort Purifying Micellar Water merupakan micellar water dengan kandungan Mugwort, Centella, dan Ceramide, membersihkan wajah dari kotoran.', image: '/src/assets/micellar.jpeg' },
+        { title: 'Neutrogena', description: 'Neutrogena Hydro Boost Water Gel Pelembab Wajah, menyegarkan untuk membuat kulit bersinar. Ideal untuk kulit kering, sensitif, & berjerawat.', image: '/src/assets/moiz.jpg' },
+        { title: 'Serum', description: 'Kadar antioksidan di malam hari memperbaiki kerutan halus, mengencangkan kulit & meningkatkan kecerahan, Efektif untuk semua jenis & warna kulit.', image: '/src/assets/serum.jpeg' },
+        { title: 'Sun Screen', description: ' tabir surya dalam bentuk gel (water base) yang diformulasi khusus dengan tekstur yang ringan, nyaman, dan tanpa whitecast.', image: '/src/assets/sunscreen.jpeg' },
+        { title: 'Toner', description: 'Toner wajah membantu membersihkan wajah dari sisa kotoran, menyeimbangkan PH wajah, mencerahkan kulit wajah, merawat kulit berjerawat.', image: '/src/assets/toner.jpg' },
       ]
     };
   }
